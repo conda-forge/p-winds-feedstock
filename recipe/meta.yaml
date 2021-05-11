@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ladsantos/p-winds/archive/refs/tags/v0.5.4-beta.tar.gz
-  sha256: b56992ba335a4b367e95c170eb581147a2766ad6a58840d72518d8a000b4785c
+  sha256: 69fd907a1aea9bd1ad5244c619f012863bbff294caeee6d51484e5760cc8c2cb
 
 build:
   noarch: python
