@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - python >=3.6
-    - pip:
-        - flatstar
+    - pip
     - setuptools
   run:
     - python >=3.6
     - numpy
     - scipy
     - astropy
+    - flatstar
 
 test:
   imports:
