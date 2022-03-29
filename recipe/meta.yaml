@@ -25,7 +25,7 @@ requirements:
     - numpy
     - scipy
     - astropy
-    - pillow
+    - flatstar
 
 test:
   imports:
