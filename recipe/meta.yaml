@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/ladsantos/p-winds/archive/refs/tags/v0.5.3-beta.tar.gz
-  sha256: 4521b0455c7eec20c6c66dbd8c92bc6dbea4e92e15f7672be508b9b0c88aef21
+  url: https://github.com/ladsantos/p-winds/archive/refs/tags/v1.2.4.tar.gz
+  sha256: 009feffee16c7f3f1bde03ea6ac3eda0289e55ccfd5fd555bccc886fc0e7f5ec
 
 build:
   noarch: python
