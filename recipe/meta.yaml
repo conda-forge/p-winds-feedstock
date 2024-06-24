@@ -1,13 +1,13 @@
 {% set name = "p-winds" %}
-{% set version = "0.5.2b" %}
+{% set version = "1.2.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/ladsantos/p-winds/archive/refs/tags/v0.5.2-beta.tar.gz
-  sha256: 3eec0a415d10539bda2e8dec9ad5f4447eb5048d94f7c1e52a4d04558697c18f
+  url: https://github.com/ladsantos/p-winds/archive/refs/tags/v1.2.4.tar.gz
+  sha256: 009feffee16c7f3f1bde03ea6ac3eda0289e55ccfd5fd555bccc886fc0e7f5ec
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - numpy
     - scipy
     - astropy
-    - pillow
+    - flatstar
 
 test:
   imports:
